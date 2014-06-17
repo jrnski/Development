@@ -1,0 +1,57 @@
+{
+    "name": "MySliderMenuProject",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone 5",
+                "builtIn": true,
+                "height": 568,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
+        }
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "efa354d2-752a-49f4-8a5f-d8a63b4a9ced",
+            "e9306316-c5f7-4e3b-8f3c-d9daa1f7a263"
+        ],
+        "store": [],
+        "controller": [
+            "982b027b-6040-44f3-a931-8f8e44f3cf61"
+        ],
+        "model": [],
+        "resource": [
+            "aee35259-1890-419a-afe4-623fe4ef6c53",
+            "47578df4-7ce6-4851-a7e1-6553d00fd100",
+            "bc6f88f8-fdaa-4e7a-9383-44a4f256a039",
+            "5e0b6e8a-2455-45fd-a673-a3642fc4d703"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

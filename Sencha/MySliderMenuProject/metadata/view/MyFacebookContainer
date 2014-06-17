@@ -1,0 +1,30 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "myfacebookcontainer",
+        "designer|userClassName": "MyFacebookContainer",
+        "html": "facebook",
+        "itemId": "myFacebookContainer"
+    },
+    "designerId": "e9306316-c5f7-4e3b-8f3c-d9daa1f7a263",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "Facebook"
+            },
+            "designerId": "dfad79bd-bd1f-48d2-b9a8-adb922d33dd8"
+        }
+    ]
+}

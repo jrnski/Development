@@ -1,0 +1,83 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyMainController"
+    },
+    "designerId": "982b027b-6040-44f3-a931-8f8e44f3cf61",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#mybutton",
+                "designer|targetType": "Ext.Button",
+                "fn": "navButtonTap",
+                "implHandler": [
+                    "",
+                    "var me = this;",
+                    "",
+                    "console.log(me.getMyMainContentContainer());",
+                    "",
+                    "me.getMyMainContentContainer().setActiveItem('#myFacebookContainer');",
+                    ""
+                ],
+                "name": "tap"
+            },
+            "designerId": "a40f46be-11c0-4ba4-a9c6-854d37b19ae6"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "myMainContentContainer",
+                "selector": "container#myMainContainer"
+            },
+            "designerId": "f2545b91-02f7-4392-b156-eeadb392bfd3"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "myNewsContainer",
+                "selector": "container#myNewsContainer"
+            },
+            "designerId": "d966cd6f-2251-45cc-a3ab-331ea407d24f"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#mybutton1",
+                "designer|targetType": "Ext.Button",
+                "fn": "fbButtonTap",
+                "implHandler": [
+                    "// this.toggleNavigation (button,e,eOpts);",
+                    ""
+                ],
+                "name": "tap"
+            },
+            "designerId": "03dcb773-bd87-4213-aa2a-f16f93d0f144"
+        }
+    ]
+}

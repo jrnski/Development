@@ -1,0 +1,140 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MyRootContainer",
+        "layout": "fit"
+    },
+    "designerId": "efa354d2-752a-49f4-8a5f-d8a63b4a9ced",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "title": ""
+            },
+            "designerId": "e02607a3-66b2-446a-a766-865d8bb70001",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "more",
+                        "itemId": "mybutton",
+                        "text": ""
+                    },
+                    "designerId": "bef53a23-2525-4ab1-ba5d-ee2d67628763"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "MyToolbarContainer"
+            },
+            "designerId": "c9d87592-c319-4a8a-bc27-ee71454f52b1"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "MyMainContentContainer",
+                "itemId": "myMainContainer",
+                "layout": "card"
+            },
+            "designerId": "d7652395-99b1-4286-b7ed-487273d38bdb",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "MyNewsContainer",
+                        "id": null,
+                        "itemId": "myNewsContainer"
+                    },
+                    "designerId": "3234719e-3733-412c-9490-5b8de351ed72",
+                    "cn": [
+                        {
+                            "type": "Ext.TitleBar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top",
+                                "title": "Container 1"
+                            },
+                            "designerId": "e36a0a26-efc7-4fcb-8c7e-6bf53df8d12f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "MyMusicContainer",
+                        "itemId": "myMusicContainer"
+                    },
+                    "designerId": "e227a5ce-5fcc-4408-9238-b3c3a3be4ff4",
+                    "cn": [
+                        {
+                            "type": "Ext.TitleBar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top",
+                                "title": "Container 2"
+                            },
+                            "designerId": "19767847-962e-4c30-ad36-e2b3d2adfbca"
+                        }
+                    ]
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "designerId": "efcc7473-e390-4b9a-b3a6-f3cec0cb73a4",
+                    "masterInstanceId": "e9306316-c5f7-4e3b-8f3c-d9daa1f7a263"
+                }
+            ]
+        }
+    ]
+}
