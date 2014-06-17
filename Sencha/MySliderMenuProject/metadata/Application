@@ -12,7 +12,8 @@
         "name": "MySliderMenuApp",
         "views": [
             "MyRootContainer",
-            "MyFacebookContainer"
+            "MyFacebookContainer",
+            "MyNewsContainer"
         ]
     },
     "designerId": "application"

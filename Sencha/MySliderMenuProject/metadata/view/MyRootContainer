@@ -76,6 +76,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "designer|displayName": "MyNewsContainer",
+                        "html": "News",
                         "id": null,
                         "itemId": "myNewsContainer"
                     },

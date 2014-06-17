@@ -651,6 +651,8 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "MySliderMenuApp.controller.MyMainController": [],
   "MySliderMenuApp.view.Main": [],
+  "MySliderMenuApp.view.MyFacebookContainer": [],
+  "MySliderMenuApp.view.MyNewsContainer": [],
   "MySliderMenuApp.view.MyRootContainer": []
 });
 Ext.ClassManager.addNameAliasMappings({
@@ -1385,5 +1387,9 @@ Ext.ClassManager.addNameAliasMappings({
   "MySliderMenuApp.view.Main": [
     "widget.main"
   ],
+  "MySliderMenuApp.view.MyFacebookContainer": [
+    "widget.myfacebookcontainer"
+  ],
+  "MySliderMenuApp.view.MyNewsContainer": [],
   "MySliderMenuApp.view.MyRootContainer": []
 });

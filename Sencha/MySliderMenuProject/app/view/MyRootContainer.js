@@ -49,6 +49,7 @@ Ext.define('MySliderMenuApp.view.MyRootContainer', {
                 items: [
                     {
                         xtype: 'container',
+                        html: 'News',
                         itemId: 'myNewsContainer',
                         items: [
                             {

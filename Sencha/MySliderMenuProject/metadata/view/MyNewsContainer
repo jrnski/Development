@@ -1,0 +1,26 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyNewsContainer"
+    },
+    "designerId": "556bb1ed-65ed-4575-85c3-28f19dc7e056",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "designerId": "ed686fd6-b731-4ecd-b0d5-85046b61e3c9"
+        }
+    ]
+}
